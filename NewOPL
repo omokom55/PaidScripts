@@ -1,5 +1,5 @@
-if game.PlaceId == 3237168 then
+if game.PlaceId == 3237168 or game.PlaceId == 8569358381 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/omokom55/PaidScripts/main/Load", true))() 
-elseif game.PlaceId == 8569358381 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/omokom55/PaidScripts/main/Load2", true))() 
+else
+game.Players.LocalPlayer:Kick("This Game Is Not Support.")
 end
