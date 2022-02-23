@@ -1,0 +1,7 @@
+function library:CreateScripts(options)
+    assert(options, "no name");
+    
+    local options = options or {};
+    setmetatable(options, {__index = defaults})
+    print("cool")
+end
