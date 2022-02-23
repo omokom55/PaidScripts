@@ -1,7 +1,14 @@
+local library = {
+    windowcount = 0;
+}
+    
 function library:CreateScripts(options)
     assert(options, "no name");
     
     local options = options or {};
     setmetatable(options, {__index = defaults})
+    
+    self.windowcount = self.windowcount + 1;
+    
     print("cool")
 end
