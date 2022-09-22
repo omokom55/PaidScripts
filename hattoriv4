@@ -1,5 +1,3 @@
-
-
 local library = {
     toggled = true;
     binding = false;
@@ -2266,4 +2264,6 @@ local function startsettings()
     return env
 end
 
-local savedsettings = startsettings()
+--local savedsettings = startsettings()
+
+return library
